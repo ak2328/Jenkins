@@ -1,19 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <build>
   <actions>
-    <hudson.model.ParametersAction>
-      <safeParameters class="sorted-set"/>
-      <parameters>
-        <hudson.model.StringParameterValue>
-          <name>My</name>
-          <description></description>
-          <value>Amit</value>
-        </hudson.model.StringParameterValue>
-      </parameters>
-      <parameterDefinitionNames>
-        <string>My</string>
-      </parameterDefinitionNames>
-    </hudson.model.ParametersAction>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
@@ -26,10 +13,10 @@
     </hudson.model.CauseAction>
   </actions>
   <queueId>1</queueId>
-  <timestamp>1595164312586</timestamp>
-  <startTime>1595164312715</startTime>
+  <timestamp>1595289022610</timestamp>
+  <startTime>1595289022655</startTime>
   <result>SUCCESS</result>
-  <duration>403</duration>
+  <duration>303</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
