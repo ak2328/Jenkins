@@ -1,4 +1,4 @@
-Started at Tue Jul 21 21:15:37 UTC 2020
-Checking First
-Checking Pipeline-first
-Finished at Tue Jul 21 21:15:37 UTC 2020. 33ms
+Started at Thu Jul 23 22:48:18 UTC 2020
+Checking BACKUP-TO-AWS
+Checking remote-project
+Finished at Thu Jul 23 22:48:18 UTC 2020. 122ms
