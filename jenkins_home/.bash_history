@@ -274,3 +274,21 @@ cd cp/
 ls
 cat 26dae7961d.bytSDI628Z4DQhMa 
 exit
+ls
+cd var
+ls
+cd jenkins_home/
+ls
+cd /var
+cd lib
+cd jenkins
+cd ..
+cd
+pwd
+ls
+cat config.xml 
+vi config.xml 
+exit
+cd
+cat config.xml 
+exit
