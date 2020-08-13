@@ -12,4 +12,8 @@
 
 nginx -g 'daemon off;'
 
+systemctl start nginx
+
+systemctl start php-fpm
+
 
