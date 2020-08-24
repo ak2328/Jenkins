@@ -5131,9 +5131,9 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     var stack1;
 
   return "        <tr>\n            <td>"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.label : depth0),{"name":"if","hash":{},"fn":this.program(7, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.label : depth0),{"name":"if","hash":{},"fn":this.program(7, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "</td>\n            <td>"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.message : depth0),{"name":"if","hash":{},"fn":this.program(9, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.message : depth0),{"name":"if","hash":{},"fn":this.program(9, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "</td>\n        </tr>\n";
 },"7":function(depth0,helpers,partials,data) {
     return "<span class=\"label label-danger\">"
@@ -5167,15 +5167,15 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
   return "<div class=\"alert alert-"
     + alias3(((helper = (helper = helpers.alert || (depth0 != null ? depth0.alert : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"alert","hash":{},"data":data}) : helper)))
     + " cbwf-info-action-popover "
-    + alias3(((helper = (helper = helpers['alert-classes'] || (depth0 != null ? depth0['alert-classes'] : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"alert-classes","hash":{},"data":data}) : helper)))
+    + alias3(((helper = (helper = helpers["alert-classes"] || (depth0 != null ? depth0["alert-classes"] : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"alert-classes","hash":{},"data":data}) : helper)))
     + "\">\n    "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.dismissible : depth0),{"name":"if","hash":{},"fn":this.program(1, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.dismissible : depth0),{"name":"if","hash":{},"fn":this.program(1, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n    "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.caption : depth0),{"name":"if","hash":{},"fn":this.program(3, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.caption : depth0),{"name":"if","hash":{},"fn":this.program(3, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.errors : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.errors : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "    "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.footer : depth0),{"name":"if","hash":{},"fn":this.program(11, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.footer : depth0),{"name":"if","hash":{},"fn":this.program(11, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n    <div class=\"cbwf-menu-item btn-toolbar\" role=\"toolbar\">\n      <div class=\"btn-group\">\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.options : depth0),{"name":"each","hash":{},"fn":this.program(13, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "      </div></div>\n\n</div>";
@@ -5206,7 +5206,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     var stack1;
 
   return "<div class=\"cbwf-popout-menu\">\n"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.items : depth0),{"name":"if","hash":{},"fn":this.program(1, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.items : depth0),{"name":"if","hash":{},"fn":this.program(1, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "</div>";
 },"useData":true,"useDepths":true});
 
@@ -5234,7 +5234,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + "  </colgroup>\n    <thead>\n    <tr class=\"header\">\n        <th class=\"stage-start\"></th>\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.stageData : depth0),{"name":"each","hash":{},"fn":this.program(4, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "    </tr>\n    </thead>\n    <tbody class=\"totals-box\">\n    <tr class=\"totals\">\n        <td class=\"stage-start\"><div class=\"cell-color\">\n          Average stage times:<br />\n"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.avgDurationMillisNoPause : depth0),{"name":"if","hash":{},"fn":this.program(6, data, 0, blockParams, depths),"inverse":this.program(8, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.avgDurationMillisNoPause : depth0),{"name":"if","hash":{},"fn":this.program(6, data, 0, blockParams, depths),"inverse":this.program(8, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
     + "        </div></td>\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.stageData : depth0),{"name":"each","hash":{},"fn":this.program(10, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "    </tr>\n  </tbody>\n    <tbody class=\"tobsTable-body\">\n"
@@ -5282,15 +5282,15 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + "</div>\n                  <div class=\"time\">"
     + alias2((helpers.formatDate || (depth0 && depth0.formatDate) || alias3).call(depth0,(depth0 != null ? depth0.startTimeMillis : depth0),"time",{"name":"formatDate","hash":{},"data":data}))
     + "</div>\n                </div>\n                "
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = (depth0 != null ? depth0._links : depth0)) != null ? stack1.changesets : stack1),{"name":"if","hash":{},"fn":this.program(13, data, 0, blockParams, depths),"inverse":this.program(15, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,((stack1 = (depth0 != null ? depth0._links : depth0)) != null ? stack1.changesets : stack1),{"name":"if","hash":{},"fn":this.program(13, data, 0, blockParams, depths),"inverse":this.program(15, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
     + "                <div class=\"stage-end-icons extension-dock\">\n"
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = (depth0 != null ? depth0._links : depth0)) != null ? stack1.artifacts : stack1),{"name":"if","hash":{},"fn":this.program(17, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,((stack1 = (depth0 != null ? depth0._links : depth0)) != null ? stack1.artifacts : stack1),{"name":"if","hash":{},"fn":this.program(17, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "                </div>\n              </div>\n\n              <div class=\"clearfix\"></div>\n\n"
     + ((stack1 = helpers.unless.call(depth0,(depth0 != null ? depth0.durationMillis : depth0),{"name":"unless","hash":{},"fn":this.program(19, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "            </div>\n          </div>\n        </td>\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.stages : depth0),{"name":"each","hash":{},"fn":this.program(22, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "    </tr>\n"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.durationMillis : depth0),{"name":"if","hash":{},"fn":this.program(39, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "");
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.durationMillis : depth0),{"name":"if","hash":{},"fn":this.program(39, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "");
 },"13":function(depth0,helpers,partials,data) {
     var stack1;
 
@@ -5335,8 +5335,8 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + ((stack1 = (helpers.ifCond || (depth0 && depth0.ifCond) || alias1).call(depth0,(depth0 != null ? depth0.status : depth0),"===","UNSTABLE",{"name":"ifCond","hash":{},"fn":this.program(29, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = (helpers.ifCond || (depth0 && depth0.ifCond) || alias1).call(depth0,(depth0 != null ? depth0.status : depth0),"===","PAUSED_PENDING_INPUT",{"name":"ifCond","hash":{},"fn":this.program(31, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = (helpers.ifCond || (depth0 && depth0.ifCond) || alias1).call(depth0,(depth0 != null ? depth0.status : depth0),"===","FAILED",{"name":"ifCond","hash":{},"fn":this.program(33, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.percentCompleteEstimate : depth0),{"name":"if","hash":{},"fn":this.program(35, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.pauseDurationMillis : depth0),{"name":"if","hash":{},"fn":this.program(37, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.percentCompleteEstimate : depth0),{"name":"if","hash":{},"fn":this.program(35, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.pauseDurationMillis : depth0),{"name":"if","hash":{},"fn":this.program(37, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "                <div class=\"extension-dock\"></div>\n            </div>\n          </div>\n    </td>\n";
 },"23":function(depth0,helpers,partials,data) {
     return "                    <div class=\"status\">aborted</div>\n";
@@ -5387,7 +5387,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
 },"39":function(depth0,helpers,partials,data,blockParams,depths) {
     var stack1;
 
-  return ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.percentCompleteEstimate : depth0),{"name":"if","hash":{},"fn":this.program(40, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.percentCompleteEstimate : depth0),{"name":"if","hash":{},"fn":this.program(40, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "");
 },"40":function(depth0,helpers,partials,data,blockParams,depths) {
     var stack1, alias1=this.lambda, alias2=this.escapeExpression;
 
@@ -5401,7 +5401,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
 },"41":function(depth0,helpers,partials,data,blockParams,depths) {
     var stack1;
 
-  return ((stack1 = helpers['if'].call(depth0,(depths[1] != null ? depths[1].timeRemainingEstimate : depths[1]),{"name":"if","hash":{},"fn":this.program(42, data, 0, blockParams, depths),"inverse":this.program(44, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "");
+  return ((stack1 = helpers["if"].call(depth0,(depths[1] != null ? depths[1].timeRemainingEstimate : depths[1]),{"name":"if","hash":{},"fn":this.program(42, data, 0, blockParams, depths),"inverse":this.program(44, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "");
 },"42":function(depth0,helpers,partials,data,blockParams,depths) {
     return "                        <span class=\"time-remaining\">"
     + this.escapeExpression((helpers.formatTime || (depth0 && depth0.formatTime) || helpers.helperMissing).call(depth0,(depths[1] != null ? depths[1].timeRemainingEstimate : depths[1]),2,{"name":"formatTime","hash":{},"data":data}))
@@ -5411,7 +5411,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
 },"46":function(depth0,helpers,partials,data) {
     var stack1;
 
-  return ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.numRuns : depth0),{"name":"if","hash":{},"fn":this.program(47, data, 0),"inverse":this.program(49, data, 0),"data":data})) != null ? stack1 : "");
+  return ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.numRuns : depth0),{"name":"if","hash":{},"fn":this.program(47, data, 0),"inverse":this.program(49, data, 0),"data":data})) != null ? stack1 : "");
 },"47":function(depth0,helpers,partials,data) {
     return "        <div class=\"alert alert-warning\">This Pipeline has run successfully, but does not define any stages. Please use the <code>stage</code> step to define some stages in this Pipeline.</div>\n";
 },"49":function(depth0,helpers,partials,data) {
@@ -5422,7 +5422,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
   return "<div id=\"pipeline-box\">\n<h2>"
     + this.escapeExpression(((helper = (helper = helpers.fragCaption || (depth0 != null ? depth0.fragCaption : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0,{"name":"fragCaption","hash":{},"data":data}) : helper)))
     + "</h2>\n"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.numStages : depth0),{"name":"if","hash":{},"fn":this.program(1, data, 0, blockParams, depths),"inverse":this.program(46, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.numStages : depth0),{"name":"if","hash":{},"fn":this.program(1, data, 0, blockParams, depths),"inverse":this.program(46, data, 0, blockParams, depths),"data":data})) != null ? stack1 : "")
     + "</div>\n";
 },"useData":true,"useDepths":true});
 
@@ -5437,7 +5437,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + " commit"
     + ((stack1 = (helpers.ifCond || (depth0 && depth0.ifCond) || alias1).call(depth0,(depth0 != null ? depth0.commitCount : depth0),">",1,{"name":"ifCond","hash":{},"fn":this.program(2, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + " by <span class=\"contributor\">"
-    + alias2(this.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0.contributors : depth0)) != null ? stack1['0'] : stack1)) != null ? stack1.authorJenkinsId : stack1), depth0))
+    + alias2(this.lambda(((stack1 = ((stack1 = (depth0 != null ? depth0.contributors : depth0)) != null ? stack1["0"] : stack1)) != null ? stack1.authorJenkinsId : stack1), depth0))
     + "</span>"
     + ((stack1 = (helpers.ifCond || (depth0 && depth0.ifCond) || alias1).call(depth0,(depth0 != null ? depth0.contributorCount : depth0),">",1,{"name":"ifCond","hash":{},"fn":this.program(4, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "</div>\n";
@@ -5457,10 +5457,10 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     var stack1, helper, alias1=helpers.helperMissing, alias2=this.escapeExpression;
 
   return "            <tr title=\""
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.authorJenkinsId : depth0),{"name":"if","hash":{},"fn":this.program(9, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.authorJenkinsId : depth0),{"name":"if","hash":{},"fn":this.program(9, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + alias2((helpers.formatDate || (depth0 && depth0.formatDate) || alias1).call(depth0,(depth0 != null ? depth0.timestamp : depth0),"short",{"name":"formatDate","hash":{},"data":data}))
     + "\">\n                <td class=\"commitId\">\n                    <span class=\"label label-default\">\n"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.commitUrl : depth0),{"name":"if","hash":{},"fn":this.program(11, data, 0),"inverse":this.program(13, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.commitUrl : depth0),{"name":"if","hash":{},"fn":this.program(11, data, 0),"inverse":this.program(13, data, 0),"data":data})) != null ? stack1 : "")
     + "                    </span>\n                </td>\n                <td class=\"message\">"
     + alias2(((helper = (helper = helpers.messageLine1 || (depth0 != null ? depth0.messageLine1 : depth0)) != null ? helper : alias1),(typeof helper === "function" ? helper.call(depth0,{"name":"messageLine1","hash":{},"data":data}) : helper)))
     + "</td>\n            </tr>\n";
@@ -5490,7 +5490,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
   return "<div class=\"alert alert-info run-changeset-details "
     + alias3(((helper = (helper = helpers.kind || (depth0 != null ? depth0.kind : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"kind","hash":{},"data":data}) : helper)))
     + "-repo\">\n"
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0.contributors : depth0)) != null ? stack1['0'] : stack1)) != null ? stack1.authorJenkinsId : stack1),{"name":"if","hash":{},"fn":this.program(1, data, 0),"inverse":this.program(6, data, 0),"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0.contributors : depth0)) != null ? stack1["0"] : stack1)) != null ? stack1.authorJenkinsId : stack1),{"name":"if","hash":{},"fn":this.program(1, data, 0),"inverse":this.program(6, data, 0),"data":data})) != null ? stack1 : "")
     + "    <div class=\"body\">\n        <table>\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.commits : depth0),{"name":"each","hash":{},"fn":this.program(8, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "        </table>\n    </div>\n    <div class=\"footer\">\n        <a href=\""
@@ -5543,11 +5543,11 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
   return "                <div class=\"checkbox\">\n                    <label>\n                        <input name=\""
     + alias3(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"name","hash":{},"data":data}) : helper)))
     + "\" type=\"checkbox\" "
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = (depth0 != null ? depth0.definition : depth0)) != null ? stack1.defaultVal : stack1),{"name":"if","hash":{},"fn":this.program(3, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,((stack1 = (depth0 != null ? depth0.definition : depth0)) != null ? stack1.defaultVal : stack1),{"name":"if","hash":{},"fn":this.program(3, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + ">"
     + alias3(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"name","hash":{},"data":data}) : helper)))
     + "\n                    </label>\n                    "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n                </div>\n";
 },"3":function(depth0,helpers,partials,data) {
     return "checked=\"checked\"";
@@ -5575,7 +5575,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + "\" value=\""
     + alias3(this.lambda(((stack1 = (depth0 != null ? depth0.definition : depth0)) != null ? stack1.defaultVal : stack1), depth0))
     + "\">\n                    "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n                </div>\n";
 },"9":function(depth0,helpers,partials,data) {
     var stack1, helper, alias1=helpers.helperMissing, alias2="function", alias3=this.escapeExpression;
@@ -5595,7 +5595,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + "\" value=\""
     + alias3(this.lambda(((stack1 = (depth0 != null ? depth0.definition : depth0)) != null ? stack1.defaultVal : stack1), depth0))
     + "\" placeholder=\"Password\">\n                    "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n                </div>\n";
 },"11":function(depth0,helpers,partials,data,blockParams,depths) {
     var stack1, helper, alias1=helpers.helperMissing, alias2="function", alias3=this.escapeExpression;
@@ -5615,7 +5615,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + "\">\n"
     + ((stack1 = helpers.each.call(depth0,((stack1 = (depth0 != null ? depth0.definition : depth0)) != null ? stack1.choices : stack1),{"name":"each","hash":{},"fn":this.program(12, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "                    </select>\n                    "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.description : depth0),{"name":"if","hash":{},"fn":this.program(5, data, 0, blockParams, depths),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n                </div>\n";
 },"12":function(depth0,helpers,partials,data,blockParams,depths) {
     var stack1, alias1=helpers.helperMissing;
@@ -5652,7 +5652,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
 },"2":function(depth0,helpers,partials,data) {
     var stack1;
 
-  return ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0._links : depth0)) != null ? stack1.log : stack1)) != null ? stack1.href : stack1),{"name":"if","hash":{},"fn":this.program(3, data, 0),"inverse":this.program(8, data, 0),"data":data})) != null ? stack1 : "");
+  return ((stack1 = helpers["if"].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0._links : depth0)) != null ? stack1.log : stack1)) != null ? stack1.href : stack1),{"name":"if","hash":{},"fn":this.program(3, data, 0),"inverse":this.program(8, data, 0),"data":data})) != null ? stack1 : "");
 },"3":function(depth0,helpers,partials,data) {
     var stack1, alias1=this.lambda, alias2=this.escapeExpression;
 
@@ -5665,9 +5665,9 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + "\">\n                "
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "\n"
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.parameterDescription : depth0),{"name":"if","hash":{},"fn":this.program(4, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.parameterDescription : depth0),{"name":"if","hash":{},"fn":this.program(4, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "                </a>\n                "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.durationMillis : depth0),{"name":"if","hash":{},"fn":this.program(6, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.durationMillis : depth0),{"name":"if","hash":{},"fn":this.program(6, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n\n            </div>\n            <div class=\"log-details\"></div>\n        </div>\n";
 },"4":function(depth0,helpers,partials,data) {
     return "                    -- "
@@ -5687,7 +5687,7 @@ module.exports = HandlebarsCompiler.template({"1":function(depth0,helpers,partia
     + "\">\n            <div class=\"node-name\">"
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "  "
-    + ((stack1 = helpers['if'].call(depth0,(depth0 != null ? depth0.durationMillis : depth0),{"name":"if","hash":{},"fn":this.program(9, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers["if"].call(depth0,(depth0 != null ? depth0.durationMillis : depth0),{"name":"if","hash":{},"fn":this.program(9, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "</div>\n        </div>\n";
 },"9":function(depth0,helpers,partials,data) {
     return "(self time "

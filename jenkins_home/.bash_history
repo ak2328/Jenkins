@@ -292,3 +292,133 @@ exit
 cd
 cat config.xml 
 exit
+docker ps
+id
+chown 1000:1000 /var/run/dock.sock
+exit
+cd opt
+ls
+ssh -i prod prod@13.232.219.144
+exit
+cd home
+cd ..
+cd
+pwd
+cd /var/jenkins_home/workspace/pipeline-docker-maven
+ls
+exit
+cd var
+cd jenkins_home/
+cd workspace/
+ls
+cd pipeline-docker-maven
+ls
+cd java-app/
+ls
+docker ps -a
+WORKSPACE=/var/jenkins_home/workspace/pipeline-docker-maven
+docker run --rm  -v  $WORKSPACE/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine "$@"
+ls
+cd $WORKSPACE
+docker run --rm  -v  $WORKSPACE/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine "$@"
+docker images
+docker run --rm  -v  $WORKSPACE/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine mvn clean package
+docker run -it -v  $WORKSPACE/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine mvn clean package
+docker ps -a
+docker run -it -v  $WORKSPACE/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine
+docker run -it -v  $WORKSPACE/java-app:/app -v /root/.m2/:/root/.m2/  maven:3-alpine
+docker run -it -v  $WORKSPACE/java-app:/app  maven:3-alpine
+doocker ps -a
+docker ps -a
+docker rm 57c69e42b196
+docker rm 304997e4e6d3
+docker rm 304997e4e6d3
+docker rm 704bfd2c0a39
+docker rm 2cef0df87b88
+docker ps -a
+docker run -v $WORKSPACE/java-app:/app  maven:3-alpine
+docker ps -a
+docker rm jolly-jang
+docker rm 0acd119f52c6
+docker ps -a
+docker run --rm  -v /var/jenkins_home/workspace/pipeline-docker-maven/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine mvn clean package
+docker ps -a
+exit
+apt-get install python3
+su root
+exit
+ls
+cd var
+cd jenkins_home/
+cd workspace/
+cd pipeline-docker-maven
+cd jenkins/
+ls
+ls
+cd build/
+ls
+python mvn.py
+sudo python mvn.py
+ls
+cat mvn.sh
+./mvn.sh
+./mvn.sh mvn clean package
+vi ./mvn.sh
+vi mvn.sh
+exit
+cd var
+cd jenkins_home/
+cd workspace/
+cd pipeline-docker-maven
+ls
+cd jenkins/
+ls
+cd build/
+ls
+./mvn.sh
+cat mvn.sh
+exit
+docker run -d --name amit -v /home:/home remote_host
+docker exec -ti amit bash
+cd home
+ls
+exit
+exit
+cd var
+cd jenkins_home/
+cd workspace/
+cd pipeline-docker-maven
+ls
+cd jenkins/
+ls
+cd build/
+ls
+
+./mvn.sh mvn clean package
+pwd
+cd ..
+cd ..
+ls
+cd java-app/
+ls
+pwd
+cd ..
+ls
+./jenkins/build/mvn.sh mvn clean package
+echo ls /jenkins/build/java-app/
+sh 'ls /jenkins/build/java-app/'
+ls /jenkins/build/java-app/
+cd jenkins/
+sh 'ls java-app/'
+ls java-app/
+ls
+cd ..
+ls java-app/
+docker run -d --name amit -v /home:/home remote_host
+docker exec -ti amit bash
+ls /home
+docker stop amit
+docker rm amit
+docker run -d --name amit -v C:/\Users/dell/Desktop/jenkins:/home remote_host
+docker run -d --name amit -v C:/Users/dell/Desktop/jenkins:/home remote_host
+exit
